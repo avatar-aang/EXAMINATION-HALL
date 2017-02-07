@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:rgba(212,132,214,0.1);
+}
+#logo_o{
+	height:50px;
+	width:50px;
+	border-top:solid 7px #F53235;
+	border-bottom:solid 7px #EF7A20;
+	border-left:solid 7px #EF7A20;
+	border-right:solid 7px #EF7A20;
+	border-radius:50%;
+	animation:logo 1.5s linear infinite;
+}
+@keyframes logo{
+	0%{transform:rotate(0deg)}
+	100%{transform:rotate(360deg)}
+}
+.logo_text{
+	font-size:40px;
+	color:#F53235;
+}
+#logo_mini{
+	font-weight:100;
+}
+#logo_lx{
+	font-weight:200;
+}

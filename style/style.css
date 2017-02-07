@@ -1,0 +1,93 @@
+
+
+
+
+#gallery {
+    height: 100%;
+    padding-top: 50px;
+	padding-left:11%;
+}
+.navbar-fixed-top {
+min-height: 80px;
+}
+
+@media (min-width: 768px) {
+.navbar {
+border-radius: 4px;
+min-height: 100px;
+ }
+}
+#menu li{
+	list-style:none;
+    display:inline;
+	
+	}
+#menu a{
+	text-decoration:none;
+	color:white;
+	font-family:COMIC SANS MS;
+}	
+#menu a:hover{
+	color:orange;font-weight:bordler; text-decoration:underline;
+}
+
+#dropdown-item a{
+	text-decoration:none;
+	color:white;
+	font-family:COMIC SANS MS;
+}	
+#dropdown-item a:hover{
+	color:orange;font-weight:bordler; text-decoration:underline;
+}
+#account-item a{
+	text-decoration:none;
+	color:white;
+	font-family:COMIC SANS MS;
+}	
+#account-item a:hover{
+	color:orange;font-weight:bordler; text-decoration:underline;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #191919; }
+#subscribe{
+	padding-left:11%
+}
+#page-content-wrapper {
+  width: 100%;
+}
+
+
+.sidebar {
+	 padding-left:0;
+	 top:80px;
+     position: fixed;
+     width: 125px;
+     height: 100%;
+     background: #282828;
+ }
+ #footer {
+    background:blue;
+    clear:both;
+    height:50px;
+    margin-top:-30px;
+    padding:0px ;
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0px;
+}
+
+#ctgry{
+	padding:0;
+	text-align:center;
+}
+#ctgry li{list-style:none;margin:2px;}
+#ctgry a{color:white;padding:8px;margin:5px;text-align:center;font-size:15px;text-decoration:none;font-family:Comic Sans Ms;}
+#ctgry a:hover{color: orange;font-weight:bolder;}
+
+
+
